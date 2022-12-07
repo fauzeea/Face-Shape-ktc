@@ -9,7 +9,7 @@ tab1, tab2 = st.tabs(["Recommendations based on the results of face shape and ge
 with tab1:
         st.header("Check this out!")
 
-from img_classification import teachable_machine_classification
+from image_classification import teachable_machine_classification
 
 option = st.selectbox(
     'Gender',
